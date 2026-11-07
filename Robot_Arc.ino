@@ -37,6 +37,7 @@ int Sonar_degree [];
 int Sonar_distance [];
 
 int duration = 0;
+int distance = 0;
 
 void Sensors_track ( int sensor_values[] )
 {
