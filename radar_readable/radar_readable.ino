@@ -22,7 +22,6 @@ void radar_sweep()
     Serial.print("angle: ");
     delay(100);
     Serial.print(i);
-    //Serial.print(",");
     Serial.print("° ");
     ultra_sonic();
 
@@ -33,7 +32,6 @@ void radar_sweep()
     delay(100);
     Serial.print("Angle: ");
     Serial.print(i);
-    //Serial.print(",");
     Serial.print("° ");
     ultra_sonic();
 
