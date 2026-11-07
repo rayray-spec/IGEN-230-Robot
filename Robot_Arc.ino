@@ -78,11 +78,10 @@ int UltraSonic ( )
 void setup()
 {
     // Setup for the sensor pins.
-    pinMode(Sensor_1,INPUT);
-    pinMode(Sensor_2,INPUT);
-    pinMode(Sensor_3,INPUT);
-    pinMode(Sensor_4,INPUT);
-    pinMode(Sensor_5,INPUT);
+    for ( int i = 0; i < 5; i++ )
+        {
+        pinMode(sensor_pins[i],INPUT);
+        }
     
     // Setup for the servo pin.
     Radar_hand.attach(Servo_motor);
